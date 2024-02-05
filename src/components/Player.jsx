@@ -7,6 +7,7 @@ export default function Player() {
 
   const handleClick = () => {
     setEntenredPlayerName(playerName.current.value);
+    playerName.current.value = "";
   };
 
   return (
